@@ -3,6 +3,6 @@
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS= --lowvram --xformers --no-gradio-queue
+set COMMANDLINE_ARGS=--xformers --medvram --autolaunch --update-check --update-all-extensions
 
 call webui.bat
